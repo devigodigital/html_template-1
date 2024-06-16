@@ -1,9 +1,9 @@
 module.exports = {
   server: {
-      baseDir: 'src/',
-      index: "index.html"
+    baseDir: './',
+    index: 'src/index.html'
   },
   port: 3000,
   files: ['**/*.js', '**/*.css', '**/*.html'],
-  serveStatic: ['./src/*']
+  serveStatic: ['src', './']
 };
