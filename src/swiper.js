@@ -1,8 +1,14 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
     slidesPerView: 1.5,
+
+    breakpoints: {
+        768: {
+            direction: 'vertical',
+        }
+    },
   
     // If we need pagination
     pagination: {
