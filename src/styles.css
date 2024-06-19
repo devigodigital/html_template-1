@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 @import url(/node_modules/aos/dist/aos.css);
+@import url(/node_modules/swiper/swiper-bundle.css);
 
 nav {
     position: sticky;
