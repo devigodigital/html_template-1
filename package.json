@@ -4,7 +4,7 @@
   "description": "Template for HTML sites. Deployed on Vercel.",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss build -i src/tailwind.css -o src/tailwind.css && cp node_modules/ src/",
+    "build": "npx tailwindcss build -i src/tailwind.css -o src/tailwind.css && cp -R node_modules/ src/",
     "build-local": "npx tailwindcss build -i src/styles.css -o src/tailwind.css --watch",
     "watch": "browser-sync start --config bs-config.js"
   },
