@@ -5035,14 +5035,6 @@ input:checked + .toggle-bg {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
-.\[e\:\FFFD\FFFD\7F\FFFDS\FFFD\FFFD\FFFD D\FFFD\FFFDG\FFFD\FFFD\16\FFFD\10w\FFFD\5C7 E\FFFDK\] {
-  e: ���S���D��G���w�ׇE�K;
-}
-
-.\[i78\:\FFFD\>\FFFD\FFFD B\FFFDp\FFFD\FFFD\FFFD-\1E\FFFD\] {
-  i78: �>��B�p���-�;
-}
-
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
