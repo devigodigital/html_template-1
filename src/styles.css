@@ -4,3 +4,73 @@
 @tailwind utilities;
 
 @import url(/node_modules/aos/dist/aos.css);
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+h1 {
+    @apply text-h1-desktop;
+}
+h2 {
+    @apply text-h2-desktop;
+}
+h3 {
+    @apply text-h3-desktop;
+}
+h4 {
+    @apply text-h4-desktop;
+}
+h5 {
+    @apply text-h5-desktop;
+}
+h6 {
+    @apply text-h6-desktop;
+}
+p {
+    @apply text-p-desktop;
+}
+ul {
+    @apply text-ul-desktop;
+}
+ol {
+    @apply text-ol-desktop;
+}
+li {
+    @apply text-li-desktop;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        @apply text-h1-mobile;
+    }
+    h2 {
+        @apply text-h2-mobile;
+    }
+    h3 {
+        @apply text-h3-mobile;
+    }
+    h4 {
+        @apply text-h4-mobile;
+    }
+    h5 {
+        @apply text-h5-mobile;
+    }
+    h6 {
+        @apply text-h6-mobile;
+    }
+    p {
+        @apply text-p-mobile;
+    }
+    ul {
+        @apply text-ul-mobile;
+    }
+    ol {
+        @apply text-ol-mobile;
+    }
+    li {
+        @apply text-li-mobile;
+    }
+}
