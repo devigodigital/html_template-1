@@ -4454,6 +4454,11 @@ input:checked + .toggle-bg {
   color: rgb(26 86 219 / var(--tw-text-opacity)) !important;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-blue-100 {
   --tw-text-opacity: 1;
   color: rgb(225 239 254 / var(--tw-text-opacity));
@@ -5214,17 +5219,17 @@ li {
 
 .footer-social-icon {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .footer-social-icon:hover {
   --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
+  color: rgb(240 82 82 / var(--tw-text-opacity));
 }
 
 footer p {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 footer h2 {
@@ -5268,6 +5273,8 @@ footer h2 {
 }
 
 .countup {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -5281,6 +5288,30 @@ footer h2 {
 .countup-number {
   font-size: 2.16rem;
   font-weight: 700;
+}
+
+.accordion-heading {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.25rem;
+  text-align: left;
+}
+
+.accordion-heading:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.accordion-heading:where([dir="rtl"], [dir="rtl"] *) {
+  text-align: right;
+}
+
+.accordion-content {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+  padding: 1.25rem;
 }
 
 .hover\:border-gray-300:hover {
@@ -5455,10 +5486,6 @@ footer h2 {
     display: flex;
   }
 
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -5517,10 +5544,6 @@ footer h2 {
     max-width: 90vw;
   }
 
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
@@ -5554,14 +5577,6 @@ footer h2 {
 
   .md\:p-0 {
     padding: 0px;
-  }
-
-  .md\:text-h1-desktop {
-    font-size: 3.5rem;
-  }
-
-  .md\:text-h2-desktop {
-    font-size: 2.5rem;
   }
 
   .md\:text-blue-700 {
@@ -5598,4 +5613,8 @@ footer h2 {
 
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
+}
+
+.rtl\:text-right:where([dir="rtl"], [dir="rtl"] *) {
+  text-align: right;
 }

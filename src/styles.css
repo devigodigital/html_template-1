@@ -94,11 +94,11 @@ li {
 }
 
 .footer-social-icon {
-    @apply text-gray-500 hover:text-gray-800;
+    @apply text-black hover:text-red-500;
 }
 
 footer p {
-    @apply text-gray-500
+    @apply text-black
 }
 
 footer h2 {
@@ -121,9 +121,17 @@ footer h2 {
 }
 
 .countup {
-    @apply text-center bg-gray-100 rounded-xl py-8 px-4;
+    @apply text-center bg-gray-100 rounded-xl py-8 px-4 my-4;
 }
 
 .countup-number {
     @apply text-h3-desktop font-bold;
+}
+
+.accordion-heading {
+    @apply flex items-center gap-8 w-full p-5 text-left rtl:text-right hover:bg-gray-100 gap-3;
+}
+
+.accordion-content {
+    @apply p-5 bg-gray-50;
 }
