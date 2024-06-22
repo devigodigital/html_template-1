@@ -4,7 +4,15 @@
 @tailwind utilities;
 
 @import url(/node_modules/aos/dist/aos.css);
-@import url(/node_modules/swiper/swiper-bundle.css);
+@import url(/node_modules/swiper/swiper-bundle.min.css);
+
+.container {
+    @apply mx-auto py-24 max-w-[90vw] gap-24 flex flex-col;
+}
+
+.hero .container {
+    @apply mx-auto my-auto py-24 max-w-[90vw] gap-0 flex flex-col;
+}
 
 nav {
     position: sticky;
@@ -74,4 +82,48 @@ li {
     li {
         @apply text-li-mobile;
     }
+}
+
+
+.hero {
+    @apply bg-purple-300 h-screen w-screen flex;
+}
+
+.footer-social-icon:not(:first-child) {
+    @apply ms-5;
+}
+
+.footer-social-icon {
+    @apply text-gray-500 hover:text-gray-800;
+}
+
+footer p {
+    @apply text-gray-500
+}
+
+footer h2 {
+    @apply text-h5-desktop;
+}
+
+
+
+
+
+.media-with-text {
+    @apply flex flex-col md:flex-row justify-between gap-12 md:gap-24;
+}
+
+.media-with-text .text {
+    @apply md:w-6/12 my-auto;
+}
+.media-with-text .media {
+    @apply md:w-6/12 my-auto;
+}
+
+.countup {
+    @apply text-center bg-gray-100 rounded-xl py-8 px-4;
+}
+
+.countup-number {
+    @apply text-h3-desktop font-bold;
 }
