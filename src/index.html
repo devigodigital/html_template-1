@@ -6,6 +6,8 @@
     <meta name="description" content="Edit this description before you put this page live.">
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/node_modules/lightbox2/dist/css/lightbox.min.css">
+
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <title>Template</title>
 </head>
@@ -87,6 +89,42 @@
     </div>
 
     <div class="container">
+
+            <div class="grid grid-cols-2 md:grid-cols-4">
+
+                <a href="/assets/galleries/demo-gallery/demo-image-1.webp" data-lightbox="demo-gallery" data-title="Sample image 1, there are 5 more to go!" class="mx-auto hover-zoom relative w-96 h-64 overflow-hidden rounded-lg shadow-lg">
+                    <img src="/assets/galleries/demo-gallery/demo-image-1.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
+                </a>
+
+                <a href="/assets/galleries/demo-gallery/demo-image-2.webp" data-lightbox="demo-gallery" data-title="Sample image 2, there are 4 more to go!" class="mx-auto hover-zoom relative w-96 h-64 overflow-hidden rounded-lg shadow-lg">
+                    <img src="/assets/galleries/demo-gallery/demo-image-2.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
+                </a>
+
+                <a href="/assets/galleries/demo-gallery/demo-image-3.webp" data-lightbox="demo-gallery" data-title="Sample image 3, there are 3 more to go!" class="mx-auto hover-zoom relative w-96 h-64 overflow-hidden rounded-lg shadow-lg">
+                    <img src="/assets/galleries/demo-gallery/demo-image-3.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
+                </a>
+
+                <a href="/assets/galleries/demo-gallery/demo-image-4.webp" data-lightbox="demo-gallery" data-title="Sample image 4, there are 2 more to go!" class="mx-auto hover-zoom relative w-96 h-64 overflow-hidden rounded-lg shadow-lg">
+                    <img src="/assets/galleries/demo-gallery/demo-image-4.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
+                </a>
+
+                <a href="/assets/galleries/demo-gallery/demo-image-5.webp" data-lightbox="demo-gallery" data-title="Sample image 5, there is 1 more to go!" class="mx-auto hover-zoom relative w-96 h-64 overflow-hidden rounded-lg shadow-lg">
+                    <img src="/assets/galleries/demo-gallery/demo-image-5.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
+                </a>
+
+                <a href="/assets/galleries/demo-gallery/demo-image-6.webp" data-lightbox="demo-gallery" data-title="Sample image 6, this is the last one!" class="mx-auto hover-zoom relative w-96 h-64 overflow-hidden rounded-lg shadow-lg">
+                    <img src="/assets/galleries/demo-gallery/demo-image-6.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
+                </a>
+
+                <a href="/assets/galleries/demo-gallery/demo-image-7.webp" data-lightbox="demo-gallery" data-title="Sample image 7, starting a new set!" class="mx-auto hover-zoom relative w-96 h-64 overflow-hidden rounded-lg shadow-lg">
+                    <img src="/assets/galleries/demo-gallery/demo-image-7.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
+                </a>
+
+                <a href="/assets/galleries/demo-gallery/demo-image-8.webp" data-lightbox="demo-gallery" data-title="Sample image 8, continue exploring!" class="mx-auto hover-zoom relative w-96 h-64 overflow-hidden rounded-lg shadow-lg">
+                    <img src="/assets/galleries/demo-gallery/demo-image-8.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
+                </a>
+            
+            </div>
 
             <div class="media-with-text">
                 <div class="text">
@@ -226,7 +264,7 @@
                     <p>
                         Accordions are where text is able to be opened one at a time.
                         When one is opened, the rest close automatically. It is a fun
-                        bit of function one can add to a site.
+                        bit of function one can add to an element.
                     </p>
                 </div>
             </div>
@@ -435,6 +473,7 @@
     </script>
     <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/lightbox2/dist/js/lightbox.min.js"></script>
     <script type="module" src="swiper.js"></script>
     <script type="module" src="countup.js"></script>
     <script type="module" src="dropdown.js"></script>

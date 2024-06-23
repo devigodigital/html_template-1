@@ -121,7 +121,7 @@ footer h2 {
 }
 
 .countup {
-    @apply text-center bg-gray-100 rounded-xl py-8 px-4 my-4;
+    @apply text-center py-8 px-4 my-4;
 }
 
 .countup-number {
@@ -134,4 +134,8 @@ footer h2 {
 
 .accordion-content {
     @apply p-5 bg-gray-50;
+}
+
+.hover-zoom:hover img {
+    transform: scale(1.1);
 }

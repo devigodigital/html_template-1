@@ -1850,6 +1850,10 @@ input:checked + .toggle-bg {
   height: 1.5rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
 .h-64 {
   height: 16rem;
 }
@@ -1936,6 +1940,10 @@ input:checked + .toggle-bg {
 
 .w-2\.5 {
   width: 0.625rem;
+}
+
+.w-2\/12 {
+  width: 16.666667%;
 }
 
 .w-20 {
@@ -2375,6 +2383,10 @@ input:checked + .toggle-bg {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-0 {
@@ -5068,6 +5080,10 @@ input:checked + .toggle-bg {
   transition-duration: 300ms;
 }
 
+.duration-500 {
+  transition-duration: 500ms;
+}
+
 .duration-700 {
   transition-duration: 700ms;
 }
@@ -5275,9 +5291,6 @@ footer h2 {
 .countup {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border-radius: 0.75rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 1rem;
@@ -5312,6 +5325,14 @@ footer h2 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
   padding: 1.25rem;
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+.hover\:h-96:hover {
+  height: 24rem;
 }
 
 .hover\:border-gray-300:hover {
@@ -5542,6 +5563,14 @@ footer h2 {
 
   .md\:max-w-\[90vw\] {
     max-width: 90vw;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row {
