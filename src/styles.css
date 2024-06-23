@@ -139,3 +139,11 @@ footer h2 {
 .hover-zoom:hover img {
     transform: scale(1.1);
 }
+
+.gallery-grid {
+    @apply grid grid-cols-3 md:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-3;
+}
+
+.gallery-item {
+    @apply md:mx-auto hover-zoom relative w-32 h-16 lg:w-64 lg:h-32 xl:w-80 xl:h-56 overflow-hidden;
+}
