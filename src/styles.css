@@ -14,10 +14,14 @@
     @apply mx-auto my-auto py-24 max-w-[90vw] gap-0 flex flex-col;
 }
 
+.hero-fixer {
+    @apply h-[90vh];
+}
+
 nav {
     position: sticky;
     top: 0;
-    z-index: 1000; /* Ensure it stays above other content */
+    z-index: 50;
 }
 
 h1 {
@@ -86,7 +90,7 @@ li {
 
 
 .hero {
-    @apply bg-purple-300 h-screen w-screen flex;
+    @apply bg-purple-300 h-screen w-screen flex top-0 absolute;
 }
 
 .footer-social-icon:not(:first-child) {
@@ -104,9 +108,6 @@ footer p {
 footer h2 {
     @apply text-h5-desktop;
 }
-
-
-
 
 
 .media-with-text {
@@ -141,9 +142,13 @@ footer h2 {
 }
 
 .gallery-grid {
-    @apply grid grid-cols-3 md:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-3;
+    @apply grid grid-cols-3 md:grid-cols-3 xl:grid-cols-8
 }
 
 .gallery-item {
-    @apply md:mx-auto hover-zoom relative w-32 h-16 lg:w-64 lg:h-32 xl:w-80 xl:h-56 overflow-hidden;
+    @apply md:mx-auto hover-zoom overflow-hidden;
+}
+
+.gallery-item img {
+    @apply w-full h-full object-cover transition-transform duration-500
 }

@@ -12,85 +12,71 @@
     <title>Template</title>
 </head>
 <body class="overflow-x-hidden">
-
     <!-- START of navigation  -->
 
 
 
 
-    <nav class="bg-white border-gray-200 z-200">
+    <nav class="bg-white border-gray-200 mx-auto items-center text-center">
         <div class="md:max-w-[90vw] flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/assets/template-logo.webp" class="h-8" alt="Template Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap">Template</span>
-        </a>
-        <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-dropdown" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
-            <li>
-                <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">
-                    Home
-                </a>
-            </li>
-            <li>
-                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">About us<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-        </svg></button>
-                <!-- Dropdown menu -->
-                <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y md:rounded-lg w-44">
-                    <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
-                        <li>
-                        <a href="our-story.html" class="block px-4 py-2 hover:bg-gray-100">
-                            Our story
-                        </a>
-                        </li>
-                        <li>
-                        <a href="meet-the-team.html" class="block px-4 py-2 hover:bg-gray-100">
-                            Meet the team
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <a href="services.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
-                    Services
-                </a>
-            </li>
-            <li>
-                <a href="contact.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
-                    Contact
-                </a>
-            </li>
-            </ul>
-        </div>
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="/assets/template-logo.webp" class="h-8" alt="Template Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap">Template</span>
+            </a>
+
+            <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                <li>
+                    <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">About us<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/></svg>
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y md:rounded-lg w-44">
+                        <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
+                            <li>
+                            <a href="our-story.html" class="block px-4 py-2 hover:bg-gray-100">
+                                Our story
+                            </a>
+                            </li>
+                            <li>
+                            <a href="meet-the-team.html" class="block px-4 py-2 hover:bg-gray-100">
+                                Meet the team
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="services.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
+                        Contact
+                    </a>
+                </li>
+                </ul>
+            </div>
         </div>
     </nav>
   
 
-
     <!-- END of navigation-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- BEGIN hero-->
     <div class="hero">
         <div class="container">
             <h1>
@@ -101,43 +87,59 @@
             </p>
         </div>
     </div>
+    <!-- END hero -->
+
+
+
+
+
+    <div class="hero-fixer">
+        <p></p>
+    </div>
 
     <div class="container">
 
-            <div class=" gallery-grid">
+            <div>
 
-                <a href="/assets/galleries/demo-gallery/demo-image-1.webp" data-lightbox="demo-gallery" data-title="Sample image 1, there are 5 more to go!" class="gallery-item">
-                    <img src="/assets/galleries/demo-gallery/demo-image-1.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
-                </a>
+                <h2>Gallery grid case</h2>
+                <p>This is a gallery, once an item is hovered over, it will expand within the image, and once clicked, you can view it in a lightbox.</p>
 
-                <a href="/assets/galleries/demo-gallery/demo-image-2.webp" data-lightbox="demo-gallery" data-title="Sample image 2, there are 4 more to go!" class="gallery-item">
-                    <img src="/assets/galleries/demo-gallery/demo-image-2.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
-                </a>
+                <div class="gallery-grid">
 
-                <a href="/assets/galleries/demo-gallery/demo-image-3.webp" data-lightbox="demo-gallery" data-title="Sample image 3, there are 3 more to go!" class="gallery-item">
-                    <img src="/assets/galleries/demo-gallery/demo-image-3.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
-                </a>
+                    <a href="/assets/galleries/demo-gallery/demo-image-1.webp" data-lightbox="demo-gallery" data-title="" class="gallery-item">
+                        <img src="/assets/galleries/demo-gallery/demo-image-1.webp" alt="Sample Image">
+                    </a>
 
-                <a href="/assets/galleries/demo-gallery/demo-image-4.webp" data-lightbox="demo-gallery" data-title="Sample image 4, there are 2 more to go!" class="gallery-item">
-                    <img src="/assets/galleries/demo-gallery/demo-image-4.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
-                </a>
+                    <a href="/assets/galleries/demo-gallery/demo-image-2.webp" data-lightbox="demo-gallery" data-title="" class="gallery-item">
+                        <img src="/assets/galleries/demo-gallery/demo-image-2.webp" alt="Sample Image">
+                    </a>
 
-                <a href="/assets/galleries/demo-gallery/demo-image-5.webp" data-lightbox="demo-gallery" data-title="Sample image 5, there is 1 more to go!" class="gallery-item">
-                    <img src="/assets/galleries/demo-gallery/demo-image-5.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
-                </a>
+                    <a href="/assets/galleries/demo-gallery/demo-image-3.webp" data-lightbox="demo-gallery" data-title="" class="gallery-item">
+                        <img src="/assets/galleries/demo-gallery/demo-image-3.webp" alt="Sample Image">
+                    </a>
 
-                <a href="/assets/galleries/demo-gallery/demo-image-6.webp" data-lightbox="demo-gallery" data-title="Sample image 6, this is the last one!" class="gallery-item">
-                    <img src="/assets/galleries/demo-gallery/demo-image-6.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
-                </a>
+                    <a href="/assets/galleries/demo-gallery/demo-image-4.webp" data-lightbox="demo-gallery" data-title="" class="gallery-item">
+                        <img src="/assets/galleries/demo-gallery/demo-image-4.webp" alt="Sample Image">
+                    </a>
 
-                <a href="/assets/galleries/demo-gallery/demo-image-7.webp" data-lightbox="demo-gallery" data-title="Sample image 7, starting a new set!" class="gallery-item">
-                    <img src="/assets/galleries/demo-gallery/demo-image-7.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
-                </a>
+                    <a href="/assets/galleries/demo-gallery/demo-image-5.webp" data-lightbox="demo-gallery" data-title="" class="gallery-item">
+                        <img src="/assets/galleries/demo-gallery/demo-image-5.webp" alt="Sample Image">
+                    </a>
 
-                <a href="/assets/galleries/demo-gallery/demo-image-8.webp" data-lightbox="demo-gallery" data-title="Sample image 8, continue exploring!" class="gallery-item">
-                    <img src="/assets/galleries/demo-gallery/demo-image-8.webp" alt="Sample Image" class="w-full h-full object-cover transition-transform duration-500">
-                </a>
-            
+                    <a href="/assets/galleries/demo-gallery/demo-image-6.webp" data-lightbox="demo-gallery" data-title="" class="gallery-item">
+                        <img src="/assets/galleries/demo-gallery/demo-image-6.webp" alt="Sample Image">
+                    </a>
+
+                    <a href="/assets/galleries/demo-gallery/demo-image-7.webp" data-lightbox="demo-gallery" data-title="" class="gallery-item">
+                        <img src="/assets/galleries/demo-gallery/demo-image-7.webp" alt="Sample Image">
+                    </a>
+
+                    <a href="/assets/galleries/demo-gallery/demo-image-8.webp" data-lightbox="demo-gallery" data-title="" class="gallery-item">
+                        <img src="/assets/galleries/demo-gallery/demo-image-8.webp" alt="Sample Image">
+                    </a>
+                
+                </div>
+
             </div>
 
             <div class="media-with-text">
@@ -177,7 +179,7 @@
                 </div>
                 <div class="text">
                     <h2>
-                        wiper test case
+                        Swiper test case
                     </h2> 
                     <p>
                         Here were are testing this use case out with a swiper block,
@@ -508,7 +510,6 @@
     <script src="/node_modules/lightbox2/dist/js/lightbox.min.js"></script>
     <script type="module" src="swiper.js"></script>
     <script type="module" src="countup.js"></script>
-    <script type="module" src="dropdown.js"></script>
 
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
