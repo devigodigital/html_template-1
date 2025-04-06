@@ -21,7 +21,7 @@ module.exports = {
         'h2-mobile': '2rem',  // 32px
         'h3-mobile': '1.75rem', // 28px
         'h4-mobile': '1.3rem',    // 24px
-        'h5-mobile': '1.2rem',// 20px
+        'h5-mobile': '1.20rem',// 20px
         'h6-mobile': '1rem', // 16px
         'p-mobile': '1rem',     // 16px
         'ul-mobile': '1rem',    // 16px
